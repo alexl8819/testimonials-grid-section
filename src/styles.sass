@@ -1,0 +1,35 @@
+:root
+  --moderate-violet: hsl(263, 55%, 52%)
+  --very-dark-greyish-blue: hsl(217, 19%, 35%)
+
+.container
+  display: flex
+  flex-direction: column
+  justify-content: center
+  align-items: center
+  min-width: 320px
+  min-height: 100vh
+
+.sr-only
+  display: none
+
+.testomonials
+  display: grid
+  width: 100%
+  font-family: 'Barlow Semi Condensed', sans-serif
+  font-weight: 500
+
+.testomonial__article
+  padding: 10px
+  
+  &--state
+    &-highlighted
+      background-image: url('./images/bg-pattern-quotation.svg')
+      background-repeat: no-repeat
+
+  .testomonial__profile
+    display: flex
+    flex-direction: row
+
+    img
+       border-radius: 999px
