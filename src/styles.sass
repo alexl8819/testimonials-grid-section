@@ -1,6 +1,7 @@
 :root
   --white: hsl(0, 0%, 100%)
   --moderate-violet: hsl(263, 55%, 52%)
+  --light-moderate-violet: hsl(263, 55%, 72%)
   --very-dark-grayish-blue: hsl(217, 19%, 35%)
   --very-dark-blackish-blue: hsl(219, 29%, 14%)
   --light-gray: hsl(0, 0%, 81%)
@@ -30,16 +31,16 @@
   grid-auto-rows: minmax(200px, auto)
 
   @media screen and (min-width: 767px)
-    max-width: 78rem
+    max-width: 84rem
     grid-template-columns: repeat(4, 1fr)
 
   .testimonial__article
     padding-top: 25px
     padding-bottom: 25px
-    padding-left: 25px
-    padding-right: 25px
+    padding-left: 42px
+    padding-right: 42px
     border-radius: 8px
-    max-height: 800px
+    max-height: 700px
 
     &--grid
       &-item-one
@@ -86,6 +87,12 @@
       &-violet
         color: var(--white)
         background-color: var(--moderate-violet)
+        background-image: url('./images/bg-pattern-quotation.svg')
+        background-position: 77% 0%
+        background-repeat: no-repeat
+
+        .profile__img
+          border: 2px solid var(--light-moderate-violet)
 
       &-gray
         color: var(--white)
@@ -98,15 +105,9 @@
       &-blackish
         color: var(--white)
         background-color: var(--very-dark-blackish-blue)
-    
-    .testimonial__highlight
-      background-image: url('./images/bg-pattern-quotation.svg')
-      background-position: top right
-      background-repeat: no-repeat
 
-    .testimonial__container
-      padding-left: 10px
-      padding-right: 10px
+        .profile__img
+          border: 2px solid var(--light-moderate-violet)
 
     .testimonial__profile
       display: flex
@@ -123,8 +124,8 @@
         border-radius: 999px
 
     .testimonial__headline
-      font-size: 1.4rem
-      line-height: 1.3em
+      font-size: 1.5rem
+      line-height: 1.25em
       margin-top: 15px
       margin-bottom: 15px
 
