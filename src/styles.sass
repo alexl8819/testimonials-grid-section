@@ -38,8 +38,11 @@
   grid-auto-rows: minmax(200px, auto)
 
   @media screen and (min-width: 767px)
-    max-width: 84rem
+    max-width: 72rem
     grid-template-columns: repeat(4, 1fr)
+
+  @media screen and (min-width: 1023px)
+    max-width: 84rem
 
   .testimonial__article
     padding-top: 25px
@@ -47,8 +50,10 @@
     padding-left: 42px
     padding-right: 42px
     border-radius: 8px
-    max-height: 700px
     box-shadow: 0 12px 12px -3px var(--light-gray)
+
+    @media screen and (min-width: 1280px)
+      max-height: 700px
 
     &--grid
       &-item-one
