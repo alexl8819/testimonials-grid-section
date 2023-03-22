@@ -4,6 +4,7 @@
   --light-moderate-violet: hsl(263, 55%, 72%)
   --very-dark-grayish-blue: hsl(217, 19%, 35%)
   --very-dark-blackish-blue: hsl(219, 29%, 14%)
+  --light-gray: hsl(0, 0%, 81%)
   --light-grayish-blue: hsl(210, 46%, 95%)
 
 .container
@@ -47,6 +48,7 @@
     padding-right: 42px
     border-radius: 8px
     max-height: 700px
+    box-shadow: 0 12px 12px -3px var(--light-gray)
 
     &--grid
       &-item-one
@@ -107,7 +109,7 @@
       &-white
         color: var(--very-dark-blackish-blue)
         background-color: var(--white)
-      
+
       &-blackish
         color: var(--white)
         background-color: var(--very-dark-blackish-blue)
@@ -118,7 +120,7 @@
     .testimonial__profile
       display: flex
       flex-direction: row
-      
+
       .profile__graduate
         margin-top: -3px
         opacity: 50%
