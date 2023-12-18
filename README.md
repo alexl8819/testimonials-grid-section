@@ -24,11 +24,12 @@ Users should be able to:
 
 ### Screenshot
 
-![Screenshot](./screenshot.png)
+![Mobile Screenshot](./screenshots/mobile.png)
+![Desktop Screenshot](./screenshots/desktop.png)
 
 ### Links
 
-- Live Site URL: [Testimonials Grid Section](https://slightlyfunctional.gitlab.io/testimonials-grid-section)
+- Live Site URL: [Testimonials Grid Section](https://alexl8819.github.io/testimonials-grid-section)
 
 ## My process
 
@@ -52,5 +53,4 @@ First time working with CSS Grid. I found the concept a bit more complex than sa
 
 ## Author
 
-- Website - [slightlyfunctional.com](https://slightlyfunctional.com)
-- Frontend Mentor - [@slightlyfunctional](https://www.frontendmentor.io/profile/slightlyfunctional)
+- Frontend Mentor - [@alexl8819](https://www.frontendmentor.io/profile/alexl8819)
